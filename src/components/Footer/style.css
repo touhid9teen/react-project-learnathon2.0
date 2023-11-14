@@ -1,0 +1,12 @@
+.Footer{
+    /* border: 1px solid red; */
+    background-color: #e3e3e3;
+    padding: 10px;
+}
+.Footer ul li{
+    list-style: none;
+}
+.Footer ul li a{
+   text-decoration: none;
+   font-size: 18px;
+}
