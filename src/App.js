@@ -1,17 +1,8 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Nav from "./components/Nav";
-
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 function App() {
-    return (
-        <div className="App">
-            <Nav />
-            <div className="main-content">
-                
-            </div>
-            <Footer />
-        </div>
-    );
+    return <RouterProvider router={router} />;
 }
 
 export default App;

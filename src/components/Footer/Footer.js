@@ -8,6 +8,6 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-    ); //<div>This is a footer</div>
+    );
 };
 export default Footer;
